@@ -95,7 +95,7 @@ pip install -U huggingface_hub
 ```
 # Download the model files
 # shell download
-huggingface-cli download --resume-download taobao-mnn/ERNIE-4.5-0.3B-PT-MNN --local_dir path/to/dir
+huggingface-cli download --resume-download taobao-mnn/ERNIE-4.5-0.3B-PT-MNN --local-dir path/to/dir
 ```
 ```
 # If timeout,use 
@@ -146,7 +146,7 @@ pip install -U huggingface_hub
 ```
 # Download the model files
 # shell download
-huggingface-cli download --resume-download mlx-community/ERNIE-4.5-0.3B-PT-bf16 --local_dir path/to/dir
+huggingface-cli download --resume-download mlx-community/ERNIE-4.5-0.3B-PT-bf16 --local-dir path/to/dir
 ```
 ```
 # If timeout,use 
