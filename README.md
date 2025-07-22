@@ -182,7 +182,7 @@ ERNIE 4.5 is being actively integrated into the wider open-source ecosystem. Her
 
 | Project            | Status       |
 | ------------------ | ------------ |
-| **transformers** | Directly usable. Load models with `trust_remote_code=True`. Native integration is planned. ⚙️ ([Repo](https://github.com/huggingface/transformers))                                                                                    |
+| **transformers** | ✅  **Merged 🎉 \!**  Ernie 0.3B and MoE models are now integrated! Directly usable. ⚙️ ([Repo](https://github.com/huggingface/transformers))([Merged PR](https://github.com/vllm-project/vllm/pull/20220))                                                                                   |
 | **vLLM** | ✅  **Merged 🎉 \!** Native support for ERNIE 4.5 text models is now available in the main branch. You can use it directly with a standard vLLM installation for high-throughput inference. ([vLLM Repo](https://github.com/vllm-project/vllm))([Merged PR](https://github.com/vllm-project/vllm/pull/20220)) |
 | **sglang** | Integration in progress.⏳ ([sglang Repo](https://github.com/sgl-project/sglang))([Tracking PR](https://www.google.com/search?q=https://github.com/sgl-project/sglang/pull/765))                                                                                         |
 | **llama.cpp/ollama** | **🎉 0.3B models are already supported in `llama.cpp`\!** This allows for efficient local CPU inference. ([llama.cpp Repo](https://github.com/ggerganov/llama.cpp))([Merged PR](https://www.google.com/search?q=https://github.com/ggerganov/llama.cpp/pull/6926))        |
